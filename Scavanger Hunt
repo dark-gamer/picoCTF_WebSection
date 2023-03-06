@@ -1,0 +1,9 @@
+
+
+The url of the problem is: http://mercury.picoctf.net:44070/
+methodology:
+01.view the source code to get the 1st part of the flag.Its "picoCTF{t"
+02.to get the second portion we have to go to the css file attached to the index.html.The second portion of the flag is "h4ts_4_l0"
+03.To get the third portion we visit the js file linked with index.html.There is a hint question."How can I keep Google from indexing my website? "its answer is robots.txt. So we now visit the robots.txt of the website.The 3rd portion of the flag is "t_0f_pl4c"
+04.There is a hint for next portion."# I think this is an apache server... can you Access the next flag?"We know,The ".htaccess" (hypertext access) file is a configuration file used by the Apache web server to enable or disable certain server configurations and settings on a per-directory basis. It allows website administrators to control and customize the behavior of their web server without having to access the main server configuration file.Here We got the 4th flag,that is "3s_2_lO0k"
+05.There is also a hint for next portion of flag.That is "# I love making websites on my Mac, I can Store a lot of information there."Here In Macs a DS_Store file stores the configurations for how the desktop looks.The final and last part of the flag is "_7a46d25d}"
