@@ -1,0 +1,2 @@
+Problem is:http://mercury.picoctf.net:17781/
+I visit the page,there is a seacch option.I try searching different keywords...but failed.But when I try with the given keyword...We can find a cookie,Here the cookie parameter's name is "name" and assigned value is 0.I bruteforce it by Burp Suite and got a flag in page 18(name=18)
