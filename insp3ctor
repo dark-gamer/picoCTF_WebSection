@@ -1,0 +1,4 @@
+URL of this Problem: https://jupiter.challenges.picoctf.org/problem/9670/
+
+We find hints from the name.A software utility or function within a Web browser that lets people view the HTML code on a Web page.
+When we view the html page we find the first 1/3 of the flag.We also find a css and js file there....from there we get the 2nd and 3rd part of the flag.
